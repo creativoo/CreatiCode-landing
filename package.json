@@ -4,7 +4,8 @@
   "description": "Landing page, about me.",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
