@@ -1,40 +1,11 @@
 {
-"homepage":"https://creativoo.github.io/creaticode-landing",
-
-  "name": "creaticode-landing",
-  
-  "version": "1.0.0",
-  
-
-  "description": "Landing page, about me.",
-  
-
-  "main": "index.js",
-  
-
-  "scripts": {
-    
-  "deploy": "gh-pages -d dist"
-
-  },
-  
-
-  "keywords": [],
-  
-
-  "author": "Diego Iberri",
-  
-
-  "license": "ISC",
-  
-
-  "devDependencies": {
-  
-
-    
-
-  "gh-pages": "^5.0.0"
-  
-
-  }
-}
+    "homepage":"https://creativoo.github.io/creaticode-landing",
+    "name":"creaticode-landing",
+    "version":"1.0.0",
+    "description":"Landing page, about me.",
+    "main":"index.js",
+    "scripts":
+    {
+        "deploy":"gh-pages -d src"
+    },
+    "keywords":[],"author":"Diego Iberri","license":"ISC","devDependencies":{"gh-pages":"^5.0.0"}}
