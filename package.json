@@ -1,9 +1,8 @@
 {
-"homepage":"https://creativoo.github.io/Creaticode-landing",
+"homepage":"https://creativoo.github.io/creaticode-landing",
 
   "name": "creaticode-landing",
   
-
   "version": "1.0.0",
   
 
@@ -23,7 +22,7 @@
 
     
 
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
   
 
   },
